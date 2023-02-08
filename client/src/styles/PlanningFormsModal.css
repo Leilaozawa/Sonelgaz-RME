@@ -1,0 +1,31 @@
+.ant-modal{
+    /* width: 80%!important; */
+}
+.editable-cell {
+    position: relative;
+  }
+  
+  .editable-cell-value-wrap {
+    padding: 5px 12px;
+    cursor: pointer;
+  }
+  
+  .editable-row:hover .editable-cell-value-wrap {
+    padding: 4px 11px;
+    border: 1px solid #d9d9d9;
+    border-radius: 2px;
+  }
+  
+  [data-theme='dark'] .editable-row:hover .editable-cell-value-wrap {
+    border: 1px solid #434343;
+  }
+  .Loading {
+    /* Center vertically and horizontally */
+    position: absolute;
+    top: 28%;
+    left: 45%;
+    margin: -25px 0 0 -25px; /* Apply negative top and left margins to truly center the element */
+  }
+  .modalForm{
+    width: 100%!important;
+  }
